@@ -19,6 +19,49 @@ color:#111;
     display:flex;
     justify-content:center;
     align-items:center;
-    background:url(https://thumbs.dreamstime.com/z/food-background-organic-vegetables-healthy-diet-concept-website-145833085.jpg);
+    background:url(https://media.istockphoto.com/photos/healthy-eating-selection-of-antioxidant-group-of-food-frame-copy-picture-id1182837157?b=1&k=20&m=1182837157&s=170667a&w=0&h=qScpN9koD9MBY2iAnf7QP4-iP5rm2VkBnElKfmj4gy4=);
     background-size:cover;
+}
+.banner .content
+{
+    max-width:900px;
+    text-align:center;
+}
+.banner .content h2{
+    font-size:5em;
+    color:#fff;
+
+}
+.banner .content p{
+    font-size:1em;
+    color:#fff;
+}
+.btn
+{
+    font-size:1em;
+    color:#fff;
+    background:#ff0157;
+    display:inline-block;
+    padding:10px 30px;
+    margin-top:20px;
+    text-transform:uppercase;
+    text-decoration:none;
+    letter-spacing:2px;
+    transition:0.5s;
+
+}
+.btn:hover{
+    letter-spacing:6px;
+}
+header{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    padding:40px 100px;
+    z-index:10000;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    transition:0.5s;
 }
