@@ -98,3 +98,9 @@ header .sticky{
     color:#fff;
     font-weight:300;
  }
+ header .sticky li a{
+    color:#111;
+ }
+ header .sticky li a:hover{
+    color:#ff0157;
+ }
